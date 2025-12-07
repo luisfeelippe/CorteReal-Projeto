@@ -109,16 +109,20 @@ Histórico de compras do usuário com status atualizado.
 1.  Crie um banco de dados no MySQL chamado `cortereal`.
 2.  Importe o arquivo SQL ou execute os comandos de criação das tabelas `users`, `products`, `orders` e `order_items`.
 
-### Passo 2: Back-end
 ```bash
+### Passo 2: Back-end
+
 cd server
 npm install
 npx nodemon server.js
 
+
 ### Passo 3: Front-end
-```bash
+
 cd client
 npm install
 npm run dev
+
+
 
 
